@@ -1,1 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #222;
+}
+
+header {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: #111827;
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+header p {
+    max-width: 700px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+header a {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #111827;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 25px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+section h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #2563eb;
+}
+
+hr {
+    display: none;
+}
+
+#projects h3 {
+    font-size: 22px;
+}
+
+#contact {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header h2 {
+        font-size: 19px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+}
